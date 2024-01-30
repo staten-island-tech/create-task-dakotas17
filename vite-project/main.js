@@ -5,7 +5,7 @@ import { feet } from './clothes';
 import './style.css'
 import { DOMSelectors } from './dom'
 
-  function addf(arr) {
+ function addf(arr) {
     document.querySelector(".container").insertAdjacentHTML("afterbegin",
       `
       <div class="card">
@@ -15,6 +15,8 @@ import { DOMSelectors } from './dom'
       )
     };
   
+
+    //make 0=i and then after button is clicked i+1
 
   addf(feet);
   console.log(feet)
@@ -62,18 +64,17 @@ function addh(arr) {
 addh(hats);
 console.log(hats)
 
-/* 
-function addh(arr) {
-  arr.forEach((bruh) => {
-    DOMSelectors.container.insertAdjacentHTML("afterbegin",
-    `
-    <div class="card">
-    <img src="${hats[0].img}" alt="" class="card-img">
-    </div>
-    `,
-    )
-  });
-}
 
-addh(hats);
-console.log(hats) */
+function nextf(arr){
+  var i;
+for (i=0; i < arr.length; i++) {}
+}
+nextf(feet); 
+function shuffle(array){
+  for (var i = array.length - 1; i > 0; i--){
+    var j = Math.floor(Math.random() * (i+1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j]= temp;
+  }
+}
