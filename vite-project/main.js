@@ -54,7 +54,7 @@ function addh(arr) {
   document.querySelector(".container").insertAdjacentHTML("afterbegin",
     `
     <div class="card">
-    <img src="${hats[0].img}" alt="" class="card-img">
+    <img src="${hats[0].img}" alt="" class="card-img hats">
     </div>
     `,
     )
@@ -70,11 +70,11 @@ function nextf(arr){
 for (i=0; i < arr.length; i++) {}
 }
 nextf(feet); 
-function shuffle(array){
+function shuffle(button){
   for (var i = array.length - 1; i > 0; i--){
     var j = Math.floor(Math.random() * (i+1));
     var temp = array[i];
     array[i] = array[j];
     array[j]= temp;
   }
-}
+}``
