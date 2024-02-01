@@ -54,7 +54,7 @@ function addh(arr) {
   document.querySelector(".container").insertAdjacentHTML("afterbegin",
     `
     <div class="card">
-    <img src="${hats[0].img}" alt="" class="card-img hats">
+    <img src="${hats[0].img}" alt="" class="card-img-hats">
     </div>
     `,
     )
@@ -65,16 +65,27 @@ addh(hats);
 console.log(hats)
 
 
-function nextf(arr){
+
+  
+/* function nexth(arr){
   var i;
-for (i=0; i < arr.length; i++) {}
+if (i=0) {
+  document.querySelectorAll
+} else {
+  
+} //(i=0; i < arr.length; i++) {}
 }
-nextf(feet); 
+nexth(hats);  */
+
+
+
 function shuffle(button){
-  for (var i = array.length - 1; i > 0; i--){
+  i=0;
+  for (var i = hats.length + 1; i < 0; i++){
     var j = Math.floor(Math.random() * (i+1));
-    var temp = array[i];
-    array[i] = array[j];
-    array[j]= temp;
+    var temp = hats[i];
+    hats[i] = hats[j];
+    hats[j]= temp;
   }
 }``
+shuffle(hatr)
