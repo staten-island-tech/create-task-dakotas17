@@ -54,7 +54,7 @@ function addh(arr) {
   document.querySelector(".container").insertAdjacentHTML("afterbegin",
     `
     <div class="card">
-    <img src="${hats[0].img}" alt="" class="card-img-hats">
+    <img src="${hats[0].img}" alt="" class="card-img hats">
     </div>
     `,
     )
