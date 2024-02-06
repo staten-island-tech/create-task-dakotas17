@@ -78,14 +78,13 @@ if (i=0) {
 nexth(hats);  */
 
 
+var i=0;
+var names = ['hatr', 'topr', 'botr', 'feetr'];
 
-function shuffle(button){
-  i=0;
-  for (var i = hats.length + 1; i < 0; i++){
-    var j = Math.floor(Math.random() * (i+1));
-    var temp = hats[i];
-    hats[i] = hats[j];
-    hats[j]= temp;
-  }
-}``
-shuffle(hatr)
+function my() {
+  console.log(names[i++]);
+
+if (i === names.length) {
+i=0;
+}
+}
