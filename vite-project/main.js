@@ -54,11 +54,12 @@ function addh(arr) {
   document.querySelector(".container").insertAdjacentHTML("afterbegin",
     `
     <div class="card">
-    <img src="${hats[0].img}" alt="" class="card-img hats">
+    <img src="${hats.img}" alt="" class="card-img hats">
     </div>
     `,
     )
   };
+  console.log(addh)
 
 
 addh(hats);
@@ -78,13 +79,14 @@ if (i=0) {
 nexth(hats);  */
 
 
-var i=0;
-var names = ['hatr', 'topr', 'botr', 'feetr'];
+let btn = document.getElementById("hatr")
+btn.addEventListener("click", help)
 
-function my() {
-  console.log(names[i++]);
-
-if (i === names.length) {
-i=0;
+function help(){
+  if (hats.img = "https://www.vintageyearstore.com/cdn/shop/files/163-1183-003-all_003_frontview_large_1.jpg?v=1703240929") {
+    hats.img = "https://m.media-amazon.com/images/I/71GRrhLfSgL._AC_UF1000,1000_QL80_.jpg"
+  } else {hats.img = "https://target.scene7.com/is/image/Target/GUEST_a4f86617-9f53-4552-ba0b-825e64221fb0?wid=488&hei=488&fmt=pjpeg"
+    
+  }
 }
-}
+console.log(hats[1].img)
