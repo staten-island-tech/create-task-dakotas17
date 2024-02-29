@@ -54,7 +54,7 @@ function addh(arr) {
   document.querySelector(".container").insertAdjacentHTML("afterbegin",
     `
     <div class="card">
-    <img src="${hats.img}" alt="" class="card-img hats">
+    <img src="${hats[0].img}" alt="" class="card-img hats">
     </div>
     `,
     )
@@ -79,7 +79,7 @@ if (i=0) {
 nexth(hats);  */
 
 
-let btn = document.getElementById("hatr")
+/* let btn = document.getElementById("hatr")
 btn.addEventListener("click", help)
 
 function help(){
@@ -89,4 +89,4 @@ function help(){
     
   }
 }
-console.log(hats[1].img)
+console.log(hats[1].img) */
