@@ -31,16 +31,16 @@ const tops =
   
   const bottoms =
   [{ 
-    id: "bottoms1",
-    class: "bottoms",
+    id: "bottom1",
+    class: "bottom",
     img: "https://www.lochcarron.co.uk/media/catalog/product/cache/3c36a3980388d2eb9643903829ced6cc/y/s/yskr-str-m-stewart-royal-modern-classic-kilted-skirt-front-resized-2022-72dpi-rgb.jpg",
   },{ 
-    id: "bottoms2",
-    class: "bottoms",
-    img: "https://www.maison-alaia.com/49/49864726RV_999_f.jpg",
+    id: "bottom2",
+    class: "bottom",
+    img: "https://surplusworldonline.com/wp-content/uploads/product-apparel-pants-fatigue-500x500.png",
 },{ 
-  id: "bottoms3",
-  class: "bottoms",
+  id: "bottom3",
+  class: "bottom",
     img: "https://images.squarespace-cdn.com/content/v1/6136ee30d6ef722b639dbca2/1639554083351-MNBFIHTY787WLH0NHOTO/Template+41_ccexpress.png?format=1500w",
  }];
  
