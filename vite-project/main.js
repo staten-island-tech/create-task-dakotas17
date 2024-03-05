@@ -125,7 +125,7 @@ const hatValues = [
 let currentHatIndex = 0;
 
 function updateHatDisplay() {
-  const container = document.querySelector(".container");
+  const container = document.querySelector(".hat");
   container.innerHTML = `
     <img src="${hatValues[currentHatIndex].img}" alt="Hat Image">
     <p>${hatValues[currentHatIndex].value}</p>
@@ -159,7 +159,7 @@ let currentTopIndex = 0;
 
 
 function updateTopDisplay() {
-  const container = document.querySelector(".container");
+  const container = document.querySelector(".top");
   container.innerHTML = `
     <img src="${topValues[currentTopIndex].img}" alt="Top Image">
     <p>${topValues[currentTopIndex].value}</p>
@@ -191,7 +191,7 @@ let currentBottomIndex = 0;
 
 
 function updateBottomDisplay() {
-  const container = document.querySelector(".container");
+  const container = document.querySelector(".bottom");
   container.innerHTML = `
     <img src="${bottomValues[currentBottomIndex].img}" alt="Bottom Image">
     <p>${bottomValues[currentBottomIndex].value}</p>
@@ -222,7 +222,7 @@ let currentFeetIndex = 0;
 
 
 function updateFeetDisplay() {
-  const container = document.querySelector(".container");
+  const container = document.querySelector(".feet");
   container.innerHTML = `
     <img src="${feetValues[currentFeetIndex].img}" alt="Feet Image">
     <p>${feetValues[currentFeetIndex].value}</p>
