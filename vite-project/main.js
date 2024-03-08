@@ -67,54 +67,6 @@ console.log(hats)
 
 
 
-  
-/* function nexth(arr){
-  var i;
-if (i=0) {
-  document.querySelectorAll
-} else {
-  
-} //(i=0; i < arr.length; i++) {}
-}
-nexth(hats);  */
-
-
-/* let btn = document.getElementById("hatr")
-btn.addEventListener("click", help)
-
-function help(){
-  if (hats.img = "https://www.vintageyearstore.com/cdn/shop/files/163-1183-003-all_003_frontview_large_1.jpg?v=1703240929") {
-    hats.img = "https://m.media-amazon.com/images/I/71GRrhLfSgL._AC_UF1000,1000_QL80_.jpg"
-  } else {hats.img = "https://target.scene7.com/is/image/Target/GUEST_a4f86617-9f53-4552-ba0b-825e64221fb0?wid=488&hei=488&fmt=pjpeg"
-    
-  }
-}
-console.log(hats[1].img) */
-
-//const hatImage = document.getElementById('hat1');
-/* const nextHatButton = document.getElementById('hatr');
-
-
-let currentHatIndex = 0;
-
-
-function updateHatImage() {
-    hats.src = hats[0].img;
-}
-
-
-nextHatButton.addEventListener('click', function() {
-    
-    currentHatIndex = (currentHatIndex + 1) % hats.length;
-   
-    updateHatImage();
-});
-
-
-updateHatImage();
-console.log(updateHatImage) */
-
-
 const hatValues = [
   {  value: "0", img: "https://www.vintageyearstore.com/cdn/shop/files/163-1183-003-all_003_frontview_large_1.jpg?v=1703240929" },
   { value: "1", img: "https://m.media-amazon.com/images/I/71GRrhLfSgL._AC_UF1000,1000_QL80_.jpg" },
@@ -241,3 +193,8 @@ document.getElementById('feetr').addEventListener('click', function() {
 
 
 
+function ap(){
+  //need if else and for each
+  
+}
+console.log(ap)
